@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1"   verbose="1">
+    <test name="Regression1">
+        <classes>
+            <class name="stepDefinitions.AddToCartDefinition"/>
+            <class name="stepDefinitions.ForgetUserDefinition"/>
+            <class name="stepDefinitions.LoginStepDefinition"/>
+            <class name="stepDefinitions.RegisterStepDefinition"/>
+            <class name="stepDefinitions.SearchDefinition"/>
+            <class name="stepDefinitions.SelectCategoryDefinition"/>
+        </classes>
+    </test>
+</suite>
+
